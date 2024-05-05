@@ -1,0 +1,94 @@
+
+
+body{
+    background-color: rosybrown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#main-container{
+display: flex;
+justify-content: center;
+}
+#form-container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 5rem;
+    width: 30rem;
+    min-width: 350px;
+    border-radius: 20px;
+}
+#logo{
+    height: 13rem;
+    margin-bottom: 0;
+}
+#form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    row-gap: 1rem;
+    width: 100%;
+}
+
+#submit-button{
+    border-style: double;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 8px;
+    margin: 2rem;
+    background-color: white;
+    transition-duration: 0.4s;
+    border-color: brown;
+    font-size: large;
+}
+#submit-button:hover{
+    background-color: rgb(199, 54, 54) ;
+    color: white
+}
+
+.full-name-container{
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.input-control{
+    width: 90%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+p{
+    font-size: x-large;
+    color: rgb(199, 54, 54);
+    font-weight: 550;
+}
+input{
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 100%;
+    border-style: double;
+    font-size: large;
+    transition-duration: 0.4s;
+}
+input:focus{
+    outline: 0;
+}
+input:hover{
+    border-color: burlywood;
+}
+
+.input-control.success input{
+    border-color: #09c372;
+}
+
+.input-control.error input{
+    border-color: #ff3860;
+}
+.input-control .error{
+    color:#ff3860;
+    font-size: 17px;
+    height:13px;
+}
